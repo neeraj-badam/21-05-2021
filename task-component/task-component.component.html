@@ -1,0 +1,23 @@
+<h1> Task List Application </h1>
+
+
+<fieldset>
+
+    <legend>
+        <h2>Task List</h2>
+    </legend>
+
+<table>
+<li *ngFor="let hero of a">
+    <tr>
+        <td>
+            {{hero}}
+        </td>
+        <td>
+            <button class="btn-primary">Click to Complete</button>
+        </td>
+    </tr>
+</li>
+</table>
+
+</fieldset>
